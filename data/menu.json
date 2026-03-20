@@ -1,0 +1,75 @@
+{
+  "evening": {
+    "entrees": [
+      {
+        "id": 1,
+        "name": "Salade César",
+        "price": 85000,
+        "description": "Laitue romaine, parmesan, croûtons, sauce Caesar"
+      },
+      {
+        "id": 2,
+        "name": "Soupe de potiron",
+        "price": 75000,
+        "description": "Crème fraîche, graines de courge grillées"
+      },
+      {
+        "id": 3,
+        "name": "Bruschetta",
+        "price": 70000,
+        "description": "Tomates fraîches, basilic, huile d'olive"
+      }
+    ],
+    "plats": [
+      {
+        "id": 4,
+        "name": "Saumon grillé",
+        "price": 195000,
+        "description": "Légumes de saison, sauce citron",
+        "image": "./images/restaurant/1.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Boeuf bourguignon",
+        "price": 185000,
+        "description": "Viande tendre, carottes, pommes de terre"
+      },
+      {
+        "id": 6,
+        "name": "Risotto aux champignons",
+        "price": 165000,
+        "description": "Riz arborio, champignons sauvages, parmesan"
+      }
+    ],
+    "desserts": [
+      {
+        "id": 7,
+        "name": "Tarte au citron",
+        "price": 65000,
+        "description": "Meringue italienne"
+      },
+      {
+        "id": 8,
+        "name": "Crème brûlée",
+        "price": 60000,
+        "description": "Vanille de Madagascar"
+      }
+    ]
+  },
+  "lunch": {
+    "formules": [
+      {
+        "id": 9,
+        "name": "Formule Express",
+        "price": 125000,
+        "description": "Plat + Dessert ou Entrée + Plat"
+      },
+      {
+        "id": 10,
+        "name": "Formule Complète",
+        "price": 165000,
+        "description": "Entrée + Plat + Dessert"
+      }
+    ]
+  }
+}

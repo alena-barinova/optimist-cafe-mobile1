@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Happy Hour",
+    "description": "50% de réduction sur tous les cocktails de 16h00 à 18h00",
+    "discount": "50%",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-12-31",
+    "active": true,
+    "image": "./images/restaurant/9.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Menu du Jour",
+    "description": "Déjeuner complet à prix spécial: 150.000₫",
+    "discount": "Prix spécial",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-12-31",
+    "active": true,
+    "image": "./images/restaurant/7.jpg"
+  }
+]

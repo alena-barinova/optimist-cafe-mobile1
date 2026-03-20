@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Anna Nguyen",
+    "rating": 5,
+    "text": "Amazing food and atmosphere! The salmon was perfectly cooked.",
+    "date": "2026-03-19T09:35:38.851Z",
+    "approved": true
+  },
+  {
+    "id": 2,
+    "name": "John Smith",
+    "rating": 5,
+    "text": "Best cafe in Nha Trang! Great coffee and friendly staff.",
+    "date": "2026-03-19T09:35:38.852Z",
+    "approved": true
+  }
+]

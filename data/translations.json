@@ -1,0 +1,470 @@
+{
+  "vi": {
+    "nav": {
+      "home": "TRANG CHỦ",
+      "menu": "THỰC ĐƠN",
+      "gallery": "HÌNH ẢNH",
+      "reservation": "ĐẶT BÀN",
+      "reserve": "ĐẶT BÀN"
+    },
+    "hero": {
+      "title": "OPTIMIST CASUAL CAFE",
+      "subtitle": "Nhà Hàng & Cà Phê Nha Trang",
+      "price": "100.000–200.000₫",
+      "rating": "4.7",
+      "reviews": "742 đánh giá"
+    },
+    "sections": {
+      "unique": {
+        "title": "Độc đáo tại Nha Trang",
+        "text": "Trong không gian ấm cúng và thân thiện, Optimist Cafe mang đến cho bạn ẩm thực sáng tạo và phong phú. Đầu bếp của chúng tôi lựa chọn những nguyên liệu địa phương tốt nhất để tạo nên những món ăn tôn vinh hương vị chân thực."
+      },
+      "bienvenue": {
+        "title": "Chào mừng",
+        "text": "Optimist Cafe không chỉ là một nhà hàng. Đây là nơi gặp gỡ, chia sẻ và khám phá ẩm thực. Đội ngũ đầy đam mê của chúng tôi làm việc mỗi ngày để mang đến cho bạn trải nghiệm ẩm thực đáng nhớ, kết hợp truyền thống Việt Nam và ảnh hưởng quốc tế."
+      },
+      "restaurant": {
+        "title": "Nhà hàng",
+        "text": "Tọa lạc tại trung tâm Nha Trang, Optimist Cafe chào đón bạn trong không gian thanh lịch và ấm cúng. Thiết kế hiện đại của chúng tôi tạo nên bầu không khí thân mật, hoàn hảo cho bữa trưa công việc, bữa tối lãng mạn hoặc những buổi tiệc cùng bạn bè."
+      }
+    },
+    "menu": {
+      "title": "Thực đơn",
+      "subtitle": "Notre Carte",
+      "evening": "Buổi tối",
+      "lunch": "Bữa trưa",
+      "entrees": "Món khai vị",
+      "plats": "Món chính",
+      "desserts": "Món tráng miệng",
+      "formules": "Combo",
+      "search": "Tìm kiếm món ăn...",
+      "category": "Tất cả danh mục",
+      "price": "Tất cả giá",
+      "vegetarian": "Món chay"
+    },
+    "gallery": {
+      "title": "Thư viện ảnh",
+      "subtitle": "Khám phá không gian của chúng tôi"
+    },
+    "reviews": {
+      "title": "Nhận xét từ khách hàng"
+    },
+    "reservation": {
+      "title": "Đặt bàn",
+      "subtitle": "Đặt chỗ ngay hôm nay",
+      "name": "Họ và tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "date": "Ngày",
+      "time": "Giờ",
+      "guests": "Số khách",
+      "message": "Ghi chú (không bắt buộc)",
+      "submit": "Gửi yêu cầu",
+      "success": "Đặt bàn thành công! Chúng tôi sẽ liên hệ sớm.",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại."
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "address": "39 Đ. Trần Nguyên Hãn\nTân Tiến, Nha Trang\nKhánh Hòa 650000, Vietnam",
+      "hours": "Thứ Hai - Chủ Nhật\n8h00 - 21h00",
+      "phone": "+84 353 239 040",
+      "email": "contact@optimistcafe.com"
+    },
+    "footer": {
+      "tagline": "Trải nghiệm ẩm thực đáng nhớ tại trung tâm Nha Trang, kết hợp truyền thống Việt Nam và ảnh hưởng Pháp.",
+      "legal": "Thông tin pháp lý",
+      "privacy": "Chính sách bảo mật",
+      "rights": "© 2026 Optimist Cafe Nha Trang. Bảo lưu mọi quyền."
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "HOME",
+      "menu": "MENU",
+      "gallery": "GALLERY",
+      "reservation": "RESERVATION",
+      "reserve": "RESERVE"
+    },
+    "hero": {
+      "title": "OPTIMIST CASUAL CAFE",
+      "subtitle": "Nha Trang Restaurant & Coffee",
+      "price": "100,000–200,000₫",
+      "rating": "4.7",
+      "reviews": "742 reviews"
+    },
+    "sections": {
+      "unique": {
+        "title": "Unique in Nha Trang",
+        "text": "In a warm and welcoming atmosphere, Optimist Cafe offers creative and generous cuisine. Our chef selects the finest local ingredients to create dishes that celebrate authentic flavors."
+      },
+      "bienvenue": {
+        "title": "Welcome",
+        "text": "Optimist Cafe is more than just a restaurant. It's a meeting place, a place to share and discover culinary delights. Our passionate team works every day to offer you a memorable gastronomic experience, combining Vietnamese tradition and international influences."
+      },
+      "restaurant": {
+        "title": "The restaurant",
+        "text": "Located in the heart of Nha Trang, Optimist Cafe welcomes you in an elegant and warm setting. Our contemporary decor creates an intimate atmosphere, perfect for your business lunches, romantic dinners, or celebrations with friends."
+      }
+    },
+    "menu": {
+      "title": "Menu",
+      "subtitle": "Our Menu",
+      "evening": "Evening",
+      "lunch": "Lunch",
+      "entrees": "Starters",
+      "plats": "Main Courses",
+      "desserts": "Desserts",
+      "formules": "Set Menus",
+      "search": "Search dishes...",
+      "category": "All categories",
+      "price": "All prices",
+      "vegetarian": "Vegetarian"
+    },
+    "gallery": {
+      "title": "Gallery",
+      "subtitle": "Discover our space"
+    },
+    "reviews": {
+      "title": "Customer Reviews"
+    },
+    "reservation": {
+      "title": "Reservation",
+      "subtitle": "Book your table today",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "date": "Date",
+      "time": "Time",
+      "guests": "Number of Guests",
+      "message": "Special Requests (optional)",
+      "submit": "Submit Reservation",
+      "success": "Reservation successful! We will contact you soon.",
+      "error": "An error occurred. Please try again."
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "39 Trần Nguyên Hãn St.\nTân Tiến, Nha Trang\nKhánh Hòa 650000, Vietnam",
+      "hours": "Monday - Sunday\n8:00 AM - 9:00 PM",
+      "phone": "+84 353 239 040",
+      "email": "contact@optimistcafe.com"
+    },
+    "footer": {
+      "tagline": "A memorable gastronomic experience in the heart of Nha Trang, combining Vietnamese tradition and French influences.",
+      "legal": "Legal Information",
+      "privacy": "Privacy Policy",
+      "rights": "© 2026 Optimist Cafe Nha Trang. All rights reserved."
+    }
+  },
+  "fr": {
+    "nav": {
+      "home": "ACCUEIL",
+      "menu": "MENU",
+      "gallery": "GALERIE",
+      "reservation": "RÉSERVATION",
+      "reserve": "RÉSERVER"
+    },
+    "hero": {
+      "title": "OPTIMIST CASUAL CAFE",
+      "subtitle": "Nha Trang Restaurant & Coffee",
+      "price": "100.000–200.000₫",
+      "rating": "4.7",
+      "reviews": "742 avis"
+    },
+    "sections": {
+      "unique": {
+        "title": "Unique à Nha Trang",
+        "text": "Dans une atmosphère chaleureuse et accueillante, Optimist Cafe vous propose une cuisine créative et généreuse. Notre chef sélectionne les meilleurs ingrédients locaux pour créer des plats qui célèbrent les saveurs authentiques."
+      },
+      "bienvenue": {
+        "title": "Bienvenue",
+        "text": "Optimist Cafe est bien plus qu'un restaurant. C'est un lieu de rencontre, de partage et de découverte culinaire. Notre équipe passionnée travaille chaque jour pour vous offrir une expérience gastronomique mémorable, alliant tradition vietnamienne et influences internationales."
+      },
+      "restaurant": {
+        "title": "Le restaurant",
+        "text": "Situé au cœur de Nha Trang, Optimist Cafe vous accueille dans un cadre élégant et chaleureux. Notre décoration contemporaine crée une atmosphère intime, parfaite pour vos déjeuners d'affaires, dîners romantiques ou célébrations entre amis."
+      }
+    },
+    "menu": {
+      "title": "Menu",
+      "subtitle": "Notre Carte",
+      "evening": "Soir",
+      "lunch": "Déjeuner",
+      "entrees": "Entrées",
+      "plats": "Plats",
+      "desserts": "Desserts",
+      "formules": "Formules",
+      "search": "Rechercher un plat...",
+      "category": "Toutes catégories",
+      "price": "Tous les prix",
+      "vegetarian": "Végétarien"
+    },
+    "gallery": {
+      "title": "Galerie",
+      "subtitle": "Découvrez notre espace"
+    },
+    "reviews": {
+      "title": "Avis Clients"
+    },
+    "reservation": {
+      "title": "Réservation",
+      "subtitle": "Réservez votre table dès aujourd'hui",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "date": "Date",
+      "time": "Heure",
+      "guests": "Nombre de personnes",
+      "message": "Demandes spéciales (optionnel)",
+      "submit": "Envoyer la réservation",
+      "success": "Réservation réussie ! Nous vous contacterons bientôt.",
+      "error": "Une erreur s'est produite. Veuillez réessayer."
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "39 Đ. Trần Nguyên Hãn\nTân Tiến, Nha Trang\nKhánh Hòa 650000, Vietnam",
+      "hours": "Lundi - Dimanche\n8h00 - 21h00",
+      "phone": "+84 353 239 040",
+      "email": "contact@optimistcafe.com"
+    },
+    "footer": {
+      "tagline": "Une expérience gastronomique mémorable au cœur de Nha Trang, alliant tradition vietnamienne et influences françaises.",
+      "legal": "Mentions Légales",
+      "privacy": "Politique de Confidentialité",
+      "rights": "© 2026 Optimist Cafe Nha Trang. Tous droits réservés."
+    }
+  },
+  "ru": {
+    "nav": {
+      "home": "ГЛАВНАЯ",
+      "menu": "МЕНЮ",
+      "gallery": "ГАЛЕРЕЯ",
+      "reservation": "БРОНИРОВАНИЕ",
+      "reserve": "ЗАБРОНИРОВАТЬ"
+    },
+    "hero": {
+      "title": "OPTIMIST CASUAL CAFE",
+      "subtitle": "Ресторан и Кофейня в Нячанге",
+      "price": "100.000–200.000₫",
+      "rating": "4.7",
+      "reviews": "742 отзыва"
+    },
+    "sections": {
+      "unique": {
+        "title": "Уникальное место в Нячанге",
+        "text": "В теплой и гостеприимной атмосфере Optimist Cafe предлагает вам творческую и щедрую кухню. Наш шеф-повар отбирает лучшие местные ингредиенты для создания блюд, которые празднуют аутентичные вкусы."
+      },
+      "bienvenue": {
+        "title": "Добро пожаловать",
+        "text": "Optimist Cafe - это больше, чем просто ресторан. Это место встречи, общения и кулинарных открытий. Наша увлеченная команда работает каждый день, чтобы предложить вам незабываемый гастрономический опыт, сочетающий вьетнамские традиции и международные влияния."
+      },
+      "restaurant": {
+        "title": "Ресторан",
+        "text": "Расположенный в самом сердце Нячанга, Optimist Cafe приветствует вас в элегантной и теплой обстановке. Наш современный декор создает интимную атмосферу, идеальную для деловых обедов, романтических ужинов или празднований с друзьями."
+      }
+    },
+    "menu": {
+      "title": "Меню",
+      "subtitle": "Наша карта",
+      "evening": "Вечер",
+      "lunch": "Обед",
+      "entrees": "Закуски",
+      "plats": "Основные блюда",
+      "desserts": "Десерты",
+      "formules": "Комплексные обеды",
+      "search": "Поиск блюд...",
+      "category": "Все категории",
+      "price": "Все цены",
+      "vegetarian": "Вегетарианское"
+    },
+    "gallery": {
+      "title": "Галерея",
+      "subtitle": "Откройте наше пространство"
+    },
+    "reviews": {
+      "title": "Отзывы клиентов"
+    },
+    "reservation": {
+      "title": "Бронирование",
+      "subtitle": "Забронируйте столик сегодня",
+      "name": "Полное имя",
+      "email": "Email",
+      "phone": "Телефон",
+      "date": "Дата",
+      "time": "Время",
+      "guests": "Количество гостей",
+      "message": "Особые пожелания (необязательно)",
+      "submit": "Отправить бронирование",
+      "success": "Бронирование успешно! Мы свяжемся с вами в ближайшее время.",
+      "error": "Произошла ошибка. Пожалуйста, попробуйте снова."
+    },
+    "contact": {
+      "title": "Контакты",
+      "address": "39 Đ. Trần Nguyên Hãn\nTân Tiến, Нячанг\nКханьхоа 650000, Вьетнам",
+      "hours": "Понедельник - Воскресенье\n8:00 - 21:00",
+      "phone": "+84 353 239 040",
+      "email": "contact@optimistcafe.com"
+    },
+    "footer": {
+      "tagline": "Незабываемый гастрономический опыт в сердце Нячанга, сочетающий вьетнамские традиции и французские влияния.",
+      "legal": "Правовая информация",
+      "privacy": "Политика конфиденциальности",
+      "rights": "© 2026 Optimist Cafe Нячанг. Все права защищены."
+    }
+  },
+  "ko": {
+    "nav": {
+      "home": "홈",
+      "menu": "메뉴",
+      "gallery": "갤러리",
+      "reservation": "예약",
+      "reserve": "예약하기"
+    },
+    "hero": {
+      "title": "OPTIMIST CASUAL CAFE",
+      "subtitle": "나트랑 레스토랑 & 커피",
+      "price": "100.000–200.000₫",
+      "rating": "4.7",
+      "reviews": "742개의 리뷰"
+    },
+    "sections": {
+      "unique": {
+        "title": "나트랑의 유니크한 곳",
+        "text": "따뜻하고 환영하는 분위기에서 Optimist Cafe는 창의적이고 푸짐한 요리를 제공합니다. 저희 셰프는 정통 맛을 기념하는 요리를 만들기 위해 최고의 현지 재료를 선택합니다."
+      },
+      "bienvenue": {
+        "title": "환영합니다",
+        "text": "Optimist Cafe는 단순한 레스토랑 그 이상입니다. 만남, 공유 및 요리 발견의 장소입니다. 저희 열정적인 팀은 베트남 전통과 국제적 영향을 결합한 잊을 수 없는 미식 경험을 제공하기 위해 매일 노력합니다."
+      },
+      "restaurant": {
+        "title": "레스토랑",
+        "text": "나트랑 중심부에 위치한 Optimist Cafe는 우아하고 따뜻한 환경에서 여러분을 환영합니다. 현대적인 장식은 비즈니스 점심, 로맨틱한 저녁 식사 또는 친구들과의 축하에 완벽한 친밀한 분위기를 조성합니다."
+      }
+    },
+    "menu": {
+      "title": "메뉴",
+      "subtitle": "우리의 메뉴",
+      "evening": "저녁",
+      "lunch": "점심",
+      "entrees": "전채",
+      "plats": "메인 요리",
+      "desserts": "디저트",
+      "formules": "세트 메뉴",
+      "search": "요리 검색...",
+      "category": "모든 카테고리",
+      "price": "모든 가격",
+      "vegetarian": "채식"
+    },
+    "gallery": {
+      "title": "갤러리",
+      "subtitle": "우리 공간을 발견하세요"
+    },
+    "reviews": {
+      "title": "고객 리뷰"
+    },
+    "reservation": {
+      "title": "예약",
+      "subtitle": "오늘 테이블을 예약하세요",
+      "name": "성함",
+      "email": "이메일",
+      "phone": "전화번호",
+      "date": "날짜",
+      "time": "시간",
+      "guests": "인원수",
+      "message": "특별 요청 (선택사항)",
+      "submit": "예약 제출",
+      "success": "예약 성공! 곧 연락드리겠습니다.",
+      "error": "오류가 발생했습니다. 다시 시도해주세요."
+    },
+    "contact": {
+      "title": "연락처",
+      "address": "39 Đ. Trần Nguyên Hãn\nTân Tiến, 나트랑\nKhánh Hòa 650000, 베트남",
+      "hours": "월요일 - 일요일\n오전 8:00 - 오후 9:00",
+      "phone": "+84 353 239 040",
+      "email": "contact@optimistcafe.com"
+    },
+    "footer": {
+      "tagline": "나트랑 중심부에서 베트남 전통과 프랑스 영향을 결합한 잊을 수 없는 미식 경험.",
+      "legal": "법적 정보",
+      "privacy": "개인정보 보호정책",
+      "rights": "© 2026 Optimist Cafe 나트랑. 모든 권리 보유."
+    }
+  },
+  "zh": {
+    "nav": {
+      "home": "主页",
+      "menu": "菜单",
+      "gallery": "画廊",
+      "reservation": "预订",
+      "reserve": "立即预订"
+    },
+    "hero": {
+      "title": "OPTIMIST CASUAL CAFE",
+      "subtitle": "芽庄餐厅与咖啡",
+      "price": "100.000–200.000₫",
+      "rating": "4.7",
+      "reviews": "742条评论"
+    },
+    "sections": {
+      "unique": {
+        "title": "芽庄独特之选",
+        "text": "在温馨友好的氛围中，Optimist Cafe为您提供创意丰富的美食。我们的厨师精选最优质的当地食材，创造出展现正宗风味的菜肴。"
+      },
+      "bienvenue": {
+        "title": "欢迎光临",
+        "text": "Optimist Cafe不仅仅是一家餐厅。这是一个会面、分享和探索美食的地方。我们热情的团队每天努力为您提供难忘的美食体验，融合越南传统和国际影响。"
+      },
+      "restaurant": {
+        "title": "餐厅",
+        "text": "位于芽庄市中心，Optimist Cafe在优雅温馨的环境中欢迎您。我们的现代装饰营造出亲密的氛围，非常适合商务午餐、浪漫晚餐或与朋友聚会。"
+      }
+    },
+    "menu": {
+      "title": "菜单",
+      "subtitle": "我们的菜单",
+      "evening": "晚餐",
+      "lunch": "午餐",
+      "entrees": "开胃菜",
+      "plats": "主菜",
+      "desserts": "甜点",
+      "formules": "套餐",
+      "search": "搜索菜品...",
+      "category": "所有类别",
+      "price": "所有价格",
+      "vegetarian": "素食"
+    },
+    "gallery": {
+      "title": "画廊",
+      "subtitle": "探索我们的空间"
+    },
+    "reviews": {
+      "title": "客户评论"
+    },
+    "reservation": {
+      "title": "预订",
+      "subtitle": "今天预订您的餐桌",
+      "name": "全名",
+      "email": "电子邮件",
+      "phone": "电话",
+      "date": "日期",
+      "time": "时间",
+      "guests": "客人数量",
+      "message": "特殊要求（可选）",
+      "submit": "提交预订",
+      "success": "预订成功！我们会尽快与您联系。",
+      "error": "发生错误。请重试。"
+    },
+    "contact": {
+      "title": "联系方式",
+      "address": "39 Đ. Trần Nguyên Hãn\nTân Tiến, 芽庄\nKhánh Hòa 650000, 越南",
+      "hours": "周一至周日\n上午8:00 - 晚上9:00",
+      "phone": "+84 353 239 040",
+      "email": "contact@optimistcafe.com"
+    },
+    "footer": {
+      "tagline": "在芽庄市中心体验难忘的美食之旅，融合越南传统和法国影响。",
+      "legal": "法律信息",
+      "privacy": "隐私政策",
+      "rights": "© 2026 Optimist Cafe 芽庄。保留所有权利。"
+    }
+  }
+}

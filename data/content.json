@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "title": "OPTIMIST CASUAL CAFE",
+    "subtitle": "Nha Trang Restaurant & Coffee",
+    "price": "100.000–200.000₫",
+    "rating": "4.7",
+    "reviews": "742"
+  },
+  "sections": {
+    "unique": {
+      "title": "Unique à Nha Trang",
+      "text": "Dans une atmosphère chaleureuse et accueillante, Optimist Cafe vous propose une cuisine créative et généreuse. Notre chef sélectionne les meilleurs ingrédients locaux pour créer des plats qui célèbrent les saveurs authentiques."
+    },
+    "bienvenue": {
+      "title": "Bienvenue",
+      "text": "Optimist Cafe est bien plus qu'un restaurant. C'est un lieu de rencontre, de partage et de découverte culinaire. Notre équipe passionnée travaille chaque jour pour vous offrir une expérience gastronomique mémorable, alliant tradition vietnamienne et influences internationales."
+    },
+    "restaurant": {
+      "title": "Le restaurant",
+      "text": "Situé au cœur de Nha Trang, Optimist Cafe vous accueille dans un cadre élégant et chaleureux. Notre décoration contemporaine crée une atmosphère intime, parfaite pour vos déjeuners d'affaires, dîners romantiques ou célébrations entre amis."
+    }
+  },
+  "contact": {
+    "address": "39 Đ. Trần Nguyên Hãn\nTân Tiến, Nha Trang\nKhánh Hòa 650000, Vietnam",
+    "hours": "Lundi - Dimanche\n8h00 - 21h00",
+    "phone": "+84 353 239 040",
+    "email": "contact@optimistcafe.com",
+    "coordinates": {
+      "lat": 12.2412152,
+      "lng": 109.189858
+    },
+    "googleMapsUrl": "https://www.google.com/maps/place/OPTIMIST+Casual+Сafe/@12.2412152,109.1872831,17z/data=!3m1!4b1!4m6!3m5!1s0x317067401895b681:0xd932d577267df556!8m2!3d12.2412152!4d109.189858!16s%2Fg%2F11l5f0qwlt"
+  }
+}
