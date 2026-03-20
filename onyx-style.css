@@ -1,0 +1,644 @@
+/**
+ * Optimist Cafe - Onyx Restaurant Style
+ * Inspired by restaurantonyx.com
+ */
+
+/* ===== Variables ===== */
+:root {
+    --navy: #0c1e30;
+    --navy-light: #1a2f45;
+    --gold: #dcba92;
+    --gold-hover: #c9a77c;
+    --white: #ffffff;
+    --bg-light: #f8f9fa;
+    --text-dark: #2c3e50;
+    --text-gray: #6c757d;
+
+    --font-heading: 'Cormorant Garamond', serif;
+    --font-body: 'Raleway', sans-serif;
+
+    --transition: all 0.3s ease;
+}
+
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: var(--text-dark);
+    background: var(--white);
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ===== Elegant Mobile Menu Toggle ===== */
+.menu-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+    background: linear-gradient(135deg, rgba(12, 30, 48, 0.95) 0%, rgba(18, 42, 64, 0.95) 100%);
+    border: 1.5px solid rgba(201, 169, 97, 0.3);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(15px);
+    box-shadow:
+        0 4px 20px rgba(12, 30, 48, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.menu-toggle:hover {
+    background: linear-gradient(135deg, rgba(12, 30, 48, 0.98) 0%, rgba(18, 42, 64, 0.98) 100%);
+    border-color: rgba(201, 169, 97, 0.6);
+    box-shadow:
+        0 6px 25px rgba(12, 30, 48, 0.4),
+        0 0 0 1px rgba(201, 169, 97, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+}
+
+.menu-toggle span {
+    width: 22px;
+    height: 2.5px;
+    background: linear-gradient(90deg, #c9a961, #dcba92);
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 1px 2px rgba(201, 169, 97, 0.3);
+}
+
+.menu-toggle:hover span {
+    background: linear-gradient(90deg, #dcba92, #c9a961);
+    box-shadow: 0 0 8px rgba(201, 169, 97, 0.6);
+}
+
+.menu-toggle.active {
+    background: linear-gradient(135deg, rgba(201, 169, 97, 0.25), rgba(220, 186, 146, 0.25));
+    border-color: rgba(201, 169, 97, 0.8);
+    transform: rotate(90deg);
+}
+
+.menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+    background: #dcba92;
+}
+
+.menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+    background: #dcba92;
+}
+
+/* ===== Navigation ===== */
+.main-nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 320px;
+    height: 100vh;
+    background: var(--white);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav.active {
+    right: 0;
+}
+
+.nav-content {
+    padding: 80px 40px 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-logo {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    flex: 1;
+}
+
+.nav-links li {
+    margin-bottom: 25px;
+}
+
+.nav-links a {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: var(--transition);
+    display: inline-block;
+}
+
+.nav-links a:hover {
+    color: var(--gold);
+    transform: translateX(5px);
+}
+
+.nav-social {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.nav-social a {
+    font-size: 1.5rem;
+    color: var(--navy);
+    transition: var(--transition);
+}
+
+.nav-social a:hover {
+    color: var(--gold);
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(rgba(12, 30, 48, 0.7), rgba(12, 30, 48, 0.7)),
+                url('../images/restaurant/9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-logo {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    border: 2px solid var(--gold);
+    padding: 15px;
+    background: var(--white);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.hero-title {
+    font-family: var(--font-heading);
+    font-size: 4.5rem;
+    font-weight: 300;
+    color: var(--white);
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.hero-price {
+    font-size: 1.5rem;
+    color: var(--gold);
+    margin-bottom: 15px;
+}
+
+.hero-rating {
+    color: var(--gold);
+    margin-bottom: 40px;
+}
+
+.hero-rating span {
+    font-size: 1.125rem;
+}
+
+.rating-text {
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 10px;
+}
+
+/* ===== Buttons ===== */
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding: 15px 40px;
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 1px solid;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--white);
+    color: var(--navy);
+    border-color: var(--white);
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--white);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--navy);
+    border-color: var(--navy);
+}
+
+.btn-secondary:hover {
+    background: var(--navy);
+    color: var(--white);
+}
+
+/* ===== Containers ===== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-narrow {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ===== Sections ===== */
+.section-text {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--navy);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.section-description {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 2;
+    color: var(--text-gray);
+    margin-bottom: 40px;
+}
+
+/* ===== Image Sections ===== */
+.section-image {
+    max-width: 100%;
+}
+
+.section-image img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+/* ===== Gallery ===== */
+.section-gallery {
+    padding: 0;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.gallery-grid img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+/* ===== Menu Section ===== */
+.section-menu {
+    padding: 100px 20px;
+    background: var(--bg-light);
+}
+
+.menu-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.menu-tab {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: transparent;
+    border: none;
+    color: var(--text-gray);
+    cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    transition: var(--transition);
+}
+
+.menu-tab.active {
+    color: var(--navy);
+    border-bottom-color: var(--gold);
+}
+
+.menu-content {
+    display: none;
+}
+
+.menu-content.active {
+    display: block;
+}
+
+.menu-category {
+    margin-bottom: 60px;
+}
+
+.menu-category-title {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--navy);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(12, 30, 48, 0.1);
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-item {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(12, 30, 48, 0.05);
+}
+
+.menu-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.menu-item-name {
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--navy);
+    letter-spacing: 1px;
+}
+
+.menu-item-price {
+    font-size: 1rem;
+    color: var(--gold);
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.menu-item-description {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: var(--text-gray);
+    line-height: 1.6;
+}
+
+/* ===== Contact Section ===== */
+.section-contact {
+    padding: 100px 20px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.contact-info h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--navy);
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.contact-info h3:first-child {
+    margin-top: 0;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.8;
+    color: var(--text-gray);
+}
+
+.contact-map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* ===== Footer ===== */
+.footer {
+    padding: 60px 20px;
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-social a {
+    font-size: 1.5rem;
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.footer-social a:hover {
+    color: var(--gold);
+}
+
+.footer-text {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    font-size: 0.875rem;
+    color: var(--gold);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: var(--transition);
+}
+
+.footer-link:hover {
+    color: var(--gold-hover);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 1000px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-nav {
+        width: 100%;
+        right: -100%;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-category-title {
+        font-size: 1.5rem;
+    }
+
+    .menu-item-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .section-image img {
+        height: 40vh;
+    }
+
+    .gallery-grid img {
+        height: 35vh;
+    }
+}
+
+/* ===== Animations ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-content > * {
+    animation: fadeIn 0.8s ease-out backwards;
+}
+
+.hero-logo { animation-delay: 0.1s; }
+.hero-title { animation-delay: 0.2s; }
+.hero-subtitle { animation-delay: 0.3s; }
+.hero-price { animation-delay: 0.4s; }
+.hero-rating { animation-delay: 0.5s; }
+.btn-primary { animation-delay: 0.6s; }
+
+/* ===== Mobile-Only Navigation Fix ===== */
+@media (max-width: 768px) {
+    .main-nav {
+        display: none;
+    }
+
+    .main-nav.active {
+        display: block;
+    }
+}
